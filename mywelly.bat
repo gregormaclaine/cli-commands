@@ -1,8 +1,8 @@
-start /B code "C:\Projects\myWellyClient"
-start /B code "C:\Projects\myWellyServer"
+start /B code "C:\Projects\myWelly\myWellyClient"
+start /B code "C:\Projects\myWelly\myWellyServer"
 
-start /D "C:\Projects\myWellyhttps" caddy
-start /D "C:\Projects\myWellyServer" npm run start
+start /D "C:\Projects\myWelly\myWellyhttps" caddy
+start /D "C:\Projects\myWelly\myWellyServer" npm run start
 
-cd C:\Projects\myWellyClient
+cd C:\Projects\myWelly\myWellyClient
 npm run start
