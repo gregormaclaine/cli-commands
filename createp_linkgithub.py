@@ -4,7 +4,7 @@ import time, sys, os, json
 github_username = ''
 github_password = ''
 
-with open('creds.json', 'r') as f:
+with open(r"C:\Projects\cli-commands\creds.json", 'r') as f:
   creds = json.load(f)
   github_username = creds['github']['username']
   github_password = creds['github']['password']
